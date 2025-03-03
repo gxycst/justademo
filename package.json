@@ -1,0 +1,26 @@
+{
+  "name": "my-vue2-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vue/composition-api": "^1.7.2",
+    "vite": "^6.2.0",
+    "vite-plugin-vue2": "^2.0.3",
+    "vue": "2"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "normalize.css": "^8.0.1",
+    "postcss": "^8.5.3",
+    "postcss-mobile-forever": "^4.4.0",
+    "stylus": "^0.64.0",
+    "stylus-loader": "^8.1.1",
+    "vue-template-compiler": "^2.7.16"
+  }
+}
