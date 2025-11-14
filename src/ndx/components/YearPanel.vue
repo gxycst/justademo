@@ -140,7 +140,7 @@ export default {
 /* 手机竖屏：一般是宽度小于 768px */
 @media (max-width: 768px) {
   .year-panel {
-    width: calc(40% - 20px); /* 两列布局（减去 gap） */
+    width: calc(80% - 20px); /* 两列布局（减去 gap） */
   }
 }
 /* 顶部彩色条增加层次 */
