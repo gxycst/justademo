@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="main-tit">二十五年-年度涨幅（2025-2000）</div>
+    <div class="main-tit">二十五年-年度涨幅</div>
     <div id="myTop" style="height: 600px;width: 100%"></div>
   </div>
 </template>
