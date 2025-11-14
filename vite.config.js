@@ -3,7 +3,7 @@ import {createVuePlugin} from 'vite-plugin-vue2';
 import postcssMobileForever from "postcss-mobile-forever";
 import { resolve } from 'path';
 export default defineConfig({
-    base:'justademo',
+    base:'ndx100',
     plugins: [createVuePlugin()],
     css:{
         postcss:{
