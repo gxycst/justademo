@@ -119,15 +119,15 @@ export default {
 
 .panel-wrapper {
   margin: 0 auto;
-  display flex
-  justify-content center
-  flex-wrap wrap /* 允许换行 */
-  gap 20px /* 每个卡片之间的间距 */
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:20px;
 }
 
 .year-panel {
   position: relative;
-  width calc(20% - 20px) /* 两列布局（减去 gap） */
+  width:calc(20% - 20px); /* 两列布局（减去 gap） */
   background: #fff;
   border-radius: 18px;
   padding: 18px 20px 22px;
@@ -137,7 +137,12 @@ export default {
   backdrop-filter: blur(6px);
   overflow: hidden;
 }
-
+/* 手机竖屏：一般是宽度小于 768px */
+@media (max-width: 768px) {
+  .year-panel {
+    width: calc(40% - 20px); /* 两列布局（减去 gap） */
+  }
+}
 /* 顶部彩色条增加层次 */
 .year-panel::before {
   content: "";
